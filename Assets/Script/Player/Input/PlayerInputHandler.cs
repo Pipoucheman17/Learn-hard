@@ -16,9 +16,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     [SerializeField]
     private float inputHoldTime = 0.2f;
-
     private float jumpInputStartTime;
-
     private float dashInputStartTime;
 
     private void Update()
@@ -65,6 +63,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (context.started)
         {
+            Debug.Log("DashInput");
             DashInput = true;
             DashInputStop = false;
             dashInputStartTime = Time.time;
@@ -76,7 +75,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     }
 
-    public void UseDashInput() => DashInput = true;
+    public void UseDashInput() => DashInput = false;
 
     private void CheckDashInputHoldTime()
     {

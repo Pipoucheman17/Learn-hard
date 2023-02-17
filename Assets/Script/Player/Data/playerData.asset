@@ -20,7 +20,7 @@ MonoBehaviour:
   wallJumpTime: 0.2
   wallJumpAngle: {x: 3, y: 5}
   dashTime: 1
-  dashSpeed: 10
+  dashSpeed: 8
   coyoteTime: 0.2
   variableJumpHeightMultiplier: 0.5
   wallSlideVelocity: 3
