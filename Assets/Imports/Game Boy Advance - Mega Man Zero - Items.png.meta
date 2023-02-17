@@ -1,0 +1,3192 @@
+fileFormatVersion: 2
+guid: e52ef17c252e8d24bb3414ebeffd5204
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -877411150229228963
+    second: Game Boy Advance - Mega Man Zero - Items_0
+  - first:
+      213: -200639530308628453
+    second: Game Boy Advance - Mega Man Zero - Items_1
+  - first:
+      213: 4596634964098025216
+    second: Game Boy Advance - Mega Man Zero - Items_2
+  - first:
+      213: 1557246027759126592
+    second: Game Boy Advance - Mega Man Zero - Items_3
+  - first:
+      213: 7648438304438221443
+    second: Game Boy Advance - Mega Man Zero - Items_4
+  - first:
+      213: 4291052898585993750
+    second: Game Boy Advance - Mega Man Zero - Items_5
+  - first:
+      213: 4502200551665654577
+    second: Game Boy Advance - Mega Man Zero - Items_6
+  - first:
+      213: 8798836517798805908
+    second: Game Boy Advance - Mega Man Zero - Items_7
+  - first:
+      213: -405453036416255018
+    second: Game Boy Advance - Mega Man Zero - Items_8
+  - first:
+      213: -1317710439312357525
+    second: Game Boy Advance - Mega Man Zero - Items_9
+  - first:
+      213: 6359374587616241610
+    second: Game Boy Advance - Mega Man Zero - Items_10
+  - first:
+      213: 6804187330967686590
+    second: Game Boy Advance - Mega Man Zero - Items_11
+  - first:
+      213: 3930881896191531379
+    second: Game Boy Advance - Mega Man Zero - Items_12
+  - first:
+      213: -3290032902050876611
+    second: Game Boy Advance - Mega Man Zero - Items_13
+  - first:
+      213: -2233835502751562747
+    second: Game Boy Advance - Mega Man Zero - Items_14
+  - first:
+      213: 7041026410010707817
+    second: Game Boy Advance - Mega Man Zero - Items_15
+  - first:
+      213: -2250436835211313282
+    second: Game Boy Advance - Mega Man Zero - Items_16
+  - first:
+      213: -5843567623433230202
+    second: Game Boy Advance - Mega Man Zero - Items_17
+  - first:
+      213: -6655314643547464102
+    second: Game Boy Advance - Mega Man Zero - Items_18
+  - first:
+      213: -1754766368576314041
+    second: Game Boy Advance - Mega Man Zero - Items_19
+  - first:
+      213: 631465315385691489
+    second: Game Boy Advance - Mega Man Zero - Items_20
+  - first:
+      213: 2217974422795152849
+    second: Game Boy Advance - Mega Man Zero - Items_21
+  - first:
+      213: -1744970835011031618
+    second: Game Boy Advance - Mega Man Zero - Items_22
+  - first:
+      213: 4265030122179490972
+    second: Game Boy Advance - Mega Man Zero - Items_23
+  - first:
+      213: -3447076997218321056
+    second: Game Boy Advance - Mega Man Zero - Items_24
+  - first:
+      213: -7970135245038811376
+    second: Game Boy Advance - Mega Man Zero - Items_25
+  - first:
+      213: -6782941446116935635
+    second: Game Boy Advance - Mega Man Zero - Items_26
+  - first:
+      213: -2571412719232582714
+    second: Game Boy Advance - Mega Man Zero - Items_27
+  - first:
+      213: 4421439656374556981
+    second: Game Boy Advance - Mega Man Zero - Items_28
+  - first:
+      213: -1302435566192881742
+    second: Game Boy Advance - Mega Man Zero - Items_29
+  - first:
+      213: -6969048965575778397
+    second: Game Boy Advance - Mega Man Zero - Items_30
+  - first:
+      213: 2705277347880955510
+    second: Game Boy Advance - Mega Man Zero - Items_31
+  - first:
+      213: 5081383453767780013
+    second: Game Boy Advance - Mega Man Zero - Items_32
+  - first:
+      213: -5534839127216198231
+    second: Game Boy Advance - Mega Man Zero - Items_33
+  - first:
+      213: 2824655579342453061
+    second: Game Boy Advance - Mega Man Zero - Items_34
+  - first:
+      213: 7369324783632130906
+    second: Game Boy Advance - Mega Man Zero - Items_35
+  - first:
+      213: -5108667941061592138
+    second: Game Boy Advance - Mega Man Zero - Items_36
+  - first:
+      213: 9052632310224257836
+    second: Game Boy Advance - Mega Man Zero - Items_37
+  - first:
+      213: -8367112169164121015
+    second: Game Boy Advance - Mega Man Zero - Items_38
+  - first:
+      213: 5140415050042253531
+    second: Game Boy Advance - Mega Man Zero - Items_39
+  - first:
+      213: -4278908104653083455
+    second: Game Boy Advance - Mega Man Zero - Items_40
+  - first:
+      213: 1694075072069256576
+    second: Game Boy Advance - Mega Man Zero - Items_41
+  - first:
+      213: -3157119719971420901
+    second: Game Boy Advance - Mega Man Zero - Items_42
+  - first:
+      213: -6842514909362180454
+    second: Game Boy Advance - Mega Man Zero - Items_43
+  - first:
+      213: -7609554868027654671
+    second: Game Boy Advance - Mega Man Zero - Items_44
+  - first:
+      213: -853849569601328232
+    second: Game Boy Advance - Mega Man Zero - Items_45
+  - first:
+      213: -266518576616952425
+    second: Game Boy Advance - Mega Man Zero - Items_46
+  - first:
+      213: 4404171922931854611
+    second: Game Boy Advance - Mega Man Zero - Items_47
+  - first:
+      213: 1387505663485949465
+    second: Game Boy Advance - Mega Man Zero - Items_48
+  - first:
+      213: -5019686655806933502
+    second: Game Boy Advance - Mega Man Zero - Items_49
+  - first:
+      213: 5420407946747613107
+    second: Game Boy Advance - Mega Man Zero - Items_50
+  - first:
+      213: 8662196262334411959
+    second: Game Boy Advance - Mega Man Zero - Items_51
+  - first:
+      213: -4030166018406586156
+    second: Game Boy Advance - Mega Man Zero - Items_52
+  - first:
+      213: 3190511139614043754
+    second: Game Boy Advance - Mega Man Zero - Items_53
+  - first:
+      213: -7819829663639616482
+    second: Game Boy Advance - Mega Man Zero - Items_54
+  - first:
+      213: 5777699480827990960
+    second: Game Boy Advance - Mega Man Zero - Items_55
+  - first:
+      213: -430451588235956618
+    second: Game Boy Advance - Mega Man Zero - Items_56
+  - first:
+      213: -6794543014873650586
+    second: Game Boy Advance - Mega Man Zero - Items_57
+  - first:
+      213: -3119147012907479795
+    second: Game Boy Advance - Mega Man Zero - Items_58
+  - first:
+      213: -5179890605416460963
+    second: Game Boy Advance - Mega Man Zero - Items_59
+  - first:
+      213: -7437997783305903125
+    second: Game Boy Advance - Mega Man Zero - Items_60
+  - first:
+      213: 8809130836419211906
+    second: Game Boy Advance - Mega Man Zero - Items_61
+  - first:
+      213: -25366296276670831
+    second: Game Boy Advance - Mega Man Zero - Items_62
+  - first:
+      213: 8986556970918130980
+    second: Game Boy Advance - Mega Man Zero - Items_63
+  - first:
+      213: -5308855891769761632
+    second: Game Boy Advance - Mega Man Zero - Items_64
+  - first:
+      213: -1837194670328344209
+    second: Game Boy Advance - Mega Man Zero - Items_65
+  - first:
+      213: -5201187635367667070
+    second: Game Boy Advance - Mega Man Zero - Items_66
+  - first:
+      213: 3871403093443643146
+    second: Game Boy Advance - Mega Man Zero - Items_67
+  - first:
+      213: 9076121509773121957
+    second: Game Boy Advance - Mega Man Zero - Items_68
+  - first:
+      213: 178181912451042594
+    second: Game Boy Advance - Mega Man Zero - Items_69
+  - first:
+      213: -277726908179328444
+    second: Game Boy Advance - Mega Man Zero - Items_70
+  - first:
+      213: -4368105495707421145
+    second: Game Boy Advance - Mega Man Zero - Items_71
+  - first:
+      213: 7428369210571581207
+    second: Game Boy Advance - Mega Man Zero - Items_72
+  - first:
+      213: -1814452827938495187
+    second: Game Boy Advance - Mega Man Zero - Items_73
+  - first:
+      213: -4973000027226816969
+    second: Game Boy Advance - Mega Man Zero - Items_74
+  - first:
+      213: 6571987179844032650
+    second: Game Boy Advance - Mega Man Zero - Items_75
+  - first:
+      213: -2347375450587256035
+    second: Game Boy Advance - Mega Man Zero - Items_76
+  - first:
+      213: -3871803282612083012
+    second: Game Boy Advance - Mega Man Zero - Items_77
+  - first:
+      213: -8669479823065857700
+    second: Game Boy Advance - Mega Man Zero - Items_78
+  - first:
+      213: 7231945695745495924
+    second: Game Boy Advance - Mega Man Zero - Items_79
+  - first:
+      213: -1867243476019045697
+    second: Game Boy Advance - Mega Man Zero - Items_80
+  - first:
+      213: -7357456809045337410
+    second: Game Boy Advance - Mega Man Zero - Items_81
+  - first:
+      213: 1698643934797326731
+    second: Game Boy Advance - Mega Man Zero - Items_82
+  - first:
+      213: -5433455463758773456
+    second: Game Boy Advance - Mega Man Zero - Items_83
+  - first:
+      213: -8134923428446981180
+    second: Game Boy Advance - Mega Man Zero - Items_84
+  - first:
+      213: 8149500845021217272
+    second: Game Boy Advance - Mega Man Zero - Items_85
+  - first:
+      213: 190550218387786643
+    second: Game Boy Advance - Mega Man Zero - Items_86
+  - first:
+      213: 3666794155043983253
+    second: Game Boy Advance - Mega Man Zero - Items_87
+  - first:
+      213: -935930257838752837
+    second: Game Boy Advance - Mega Man Zero - Items_88
+  - first:
+      213: 1671977531545092639
+    second: Game Boy Advance - Mega Man Zero - Items_89
+  - first:
+      213: -8120220952027884177
+    second: Game Boy Advance - Mega Man Zero - Items_90
+  - first:
+      213: 8817538816820491248
+    second: Game Boy Advance - Mega Man Zero - Items_91
+  - first:
+      213: 8525337689127075065
+    second: Game Boy Advance - Mega Man Zero - Items_92
+  - first:
+      213: -4915185478267969744
+    second: Game Boy Advance - Mega Man Zero - Items_93
+  - first:
+      213: 2839331353702729912
+    second: Game Boy Advance - Mega Man Zero - Items_94
+  - first:
+      213: 6796997328962638322
+    second: Game Boy Advance - Mega Man Zero - Items_95
+  - first:
+      213: -4462586702326256968
+    second: Game Boy Advance - Mega Man Zero - Items_96
+  - first:
+      213: 1439573943294788941
+    second: Game Boy Advance - Mega Man Zero - Items_97
+  - first:
+      213: 3207202204984799367
+    second: Game Boy Advance - Mega Man Zero - Items_98
+  - first:
+      213: 4703235958786827327
+    second: Game Boy Advance - Mega Man Zero - Items_99
+  - first:
+      213: -7175387104419181099
+    second: Game Boy Advance - Mega Man Zero - Items_100
+  - first:
+      213: 4860641621265589117
+    second: Game Boy Advance - Mega Man Zero - Items_101
+  - first:
+      213: 5236850424666149233
+    second: Game Boy Advance - Mega Man Zero - Items_102
+  - first:
+      213: -6275181201883645663
+    second: Game Boy Advance - Mega Man Zero - Items_103
+  - first:
+      213: -7370123482272433817
+    second: Game Boy Advance - Mega Man Zero - Items_104
+  - first:
+      213: -899786917129057092
+    second: Game Boy Advance - Mega Man Zero - Items_105
+  - first:
+      213: 3854249864476416647
+    second: Game Boy Advance - Mega Man Zero - Items_106
+  - first:
+      213: 5520246075951667774
+    second: Game Boy Advance - Mega Man Zero - Items_107
+  - first:
+      213: -7161979244939009502
+    second: Game Boy Advance - Mega Man Zero - Items_108
+  - first:
+      213: -8567792457783210432
+    second: Game Boy Advance - Mega Man Zero - Items_109
+  - first:
+      213: 3813300446577202991
+    second: Game Boy Advance - Mega Man Zero - Items_110
+  - first:
+      213: -8697681020790930310
+    second: Game Boy Advance - Mega Man Zero - Items_111
+  - first:
+      213: -8749635261713258999
+    second: Game Boy Advance - Mega Man Zero - Items_112
+  - first:
+      213: -5856629638831396601
+    second: Game Boy Advance - Mega Man Zero - Items_113
+  - first:
+      213: 4229725707466022765
+    second: Game Boy Advance - Mega Man Zero - Items_114
+  - first:
+      213: -8148791195588861702
+    second: Game Boy Advance - Mega Man Zero - Items_115
+  - first:
+      213: 625241244331445519
+    second: Game Boy Advance - Mega Man Zero - Items_116
+  - first:
+      213: -656327146325260057
+    second: Game Boy Advance - Mega Man Zero - Items_117
+  - first:
+      213: -8942373044183079706
+    second: Game Boy Advance - Mega Man Zero - Items_118
+  - first:
+      213: -1038751511055551895
+    second: Game Boy Advance - Mega Man Zero - Items_119
+  - first:
+      213: 226168847737149808
+    second: Game Boy Advance - Mega Man Zero - Items_120
+  - first:
+      213: 5201078061061432153
+    second: Game Boy Advance - Mega Man Zero - Items_121
+  - first:
+      213: 3549840399206241963
+    second: Game Boy Advance - Mega Man Zero - Items_122
+  - first:
+      213: 1534640723890046225
+    second: Game Boy Advance - Mega Man Zero - Items_123
+  - first:
+      213: 8677262529722362445
+    second: Game Boy Advance - Mega Man Zero - Items_124
+  - first:
+      213: 7640409246192258766
+    second: Game Boy Advance - Mega Man Zero - Items_125
+  - first:
+      213: 8255138074055337376
+    second: Game Boy Advance - Mega Man Zero - Items_126
+  - first:
+      213: -4125610981369125106
+    second: Game Boy Advance - Mega Man Zero - Items_127
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 1
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 122
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52be94253fc2d3f0800000000000000
+      internalID: -877411150229228963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b109d04096f273df0800000000000000
+      internalID: -200639530308628453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007043555278acf30800000000000000
+      internalID: 4596634964098025216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0488878f2037c9510800000000000000
+      internalID: 1557246027759126592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 122
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38af78e5d16b42a60800000000000000
+      internalID: 7648438304438221443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612e0a450e1ec8b30800000000000000
+      internalID: 4291052898585993750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b599d4c870b7e30800000000000000
+      internalID: 4502200551665654577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4910228d13fbb1a70800000000000000
+      internalID: 8798836517798805908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 122
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db3e4f8c9a8f5af0800000000000000
+      internalID: -405453036416255018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 122
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6786f3465d86bde0800000000000000
+      internalID: -1317710439312357525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 122
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac723887e79014850800000000000000
+      internalID: 6359374587616241610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 122
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdca8fc3545d6e50800000000000000
+      internalID: 6804187330967686590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_12
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 122
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3799284024c4d8630800000000000000
+      internalID: 3930881896191531379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 122
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33f8e5c1847752d0800000000000000
+      internalID: -3290032902050876611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 122
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50446d31272dff0e0800000000000000
+      internalID: -2233835502751562747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 122
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96705d60730c6b160800000000000000
+      internalID: 7041026410010707817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 103
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f76c72f97d4c0e0800000000000000
+      internalID: -2250436835211313282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 103
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688e940053a77eea0800000000000000
+      internalID: -5843567623433230202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 103
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ed5e2d79293a3a0800000000000000
+      internalID: -6655314643547464102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745e431f841d5a7e0800000000000000
+      internalID: -1754766368576314041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d4b83db5a63c800800000000000000
+      internalID: 631465315385691489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd6b977cf3d7ce10800000000000000
+      internalID: 2217974422795152849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_22
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd20c3554e98c7e0800000000000000
+      internalID: -1744970835011031618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9479dc8c4e603b30800000000000000
+      internalID: 4265030122179490972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_24
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06db1630cb58920d0800000000000000
+      internalID: -3447076997218321056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01704a3e834646190800000000000000
+      internalID: -7970135245038811376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28fceb31b62ed1a0800000000000000
+      internalID: -6782941446116935635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb783b71c1805cd0800000000000000
+      internalID: -2571412719232582714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539d70211fb1c5d30800000000000000
+      internalID: 4421439656374556981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf0d3ec0c1dcede0800000000000000
+      internalID: -1302435566192881742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_30
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af5d80b3e6f84f90800000000000000
+      internalID: -6969048965575778397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_31
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 81
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eea5b2a631b8520800000000000000
+      internalID: 2705277347880955510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_32
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da640613453b48640800000000000000
+      internalID: 5081383453767780013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_33
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad685d732d4033b0800000000000000
+      internalID: -5534839127216198231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_34
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5493883a841333720800000000000000
+      internalID: 2824655579342453061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_35
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5320eaa8d9154660800000000000000
+      internalID: 7369324783632130906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 63
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbf891139d5a19b0800000000000000
+      internalID: -5108667941061592138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_37
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23042d8f1961ad70800000000000000
+      internalID: 9052632310224257836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_38
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cdf1120db02eb80800000000000000
+      internalID: -8367112169164121015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd027dfb04c665740800000000000000
+      internalID: 5140415050042253531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_40
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccec9bdfb34e94c0800000000000000
+      internalID: -4278908104653083455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_41
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085488d6d40928710800000000000000
+      internalID: 1694075072069256576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 63
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1509b18758af24d0800000000000000
+      internalID: -3157119719971420901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_43
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e272171f08a01a0800000000000000
+      internalID: -6842514909362180454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_44
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdfd582a2e656690800000000000000
+      internalID: -7609554868027654671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_45
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 63
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bea4027548624f0800000000000000
+      internalID: -853849569601328232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_46
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 66
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d24b244c22d4cf0800000000000000
+      internalID: -266518576616952425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_47
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 63
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d2a149703ce1d30800000000000000
+      internalID: 4404171922931854611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_48
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9163ce3bc09614310800000000000000
+      internalID: 1387505663485949465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 65
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206fbdcf49d765ab0800000000000000
+      internalID: -5019686655806933502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_50
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf889b1f48293b40800000000000000
+      internalID: 5420407946747613107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_51
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 63
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4b8273b9d463870800000000000000
+      internalID: 8662196262334411959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_52
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d86607eb59f118c0800000000000000
+      internalID: -4030166018406586156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_53
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 52
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e2f983af8f64c20800000000000000
+      internalID: 3190511139614043754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_54
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 53
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14c2b62a526a7390800000000000000
+      internalID: -7819829663639616482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b316b5f0138e2050800000000000000
+      internalID: 5777699480827990960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_56
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 52
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e6136af8ab60af0800000000000000
+      internalID: -430451588235956618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_57
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 53
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a2853802fe4b1a0800000000000000
+      internalID: -6794543014873650586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_58
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dcd65515096b4d0800000000000000
+      internalID: -3119147012907479795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_59
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 52
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dc4c840f45d18b0800000000000000
+      internalID: -5179890605416460963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_60
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 53
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3a8ed9c6ce6c890800000000000000
+      internalID: -7437997783305903125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 41
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282f4bca2d1504a70800000000000000
+      internalID: 8809130836419211906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_62
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 41
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1966929ec71e5aff0800000000000000
+      internalID: -25366296276670831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 41
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425b265c3f9a6bc70800000000000000
+      internalID: 8986556970918130980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_64
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 41
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0e257a1b72356b0800000000000000
+      internalID: -5308855891769761632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_65
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 41
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6196d36e29f086e0800000000000000
+      internalID: -1837194670328344209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_66
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 41
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a91c7176ba1d7b0800000000000000
+      internalID: -5201187635367667070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_67
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 41
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a078e071a9cf9b530800000000000000
+      internalID: 3871403093443643146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_68
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 41
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a91f400d6cd4fd70800000000000000
+      internalID: 9076121509773121957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_69
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 41
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d4b0d5187097200800000000000000
+      internalID: 178181912451042594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_70
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 39
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442576539d0552cf0800000000000000
+      internalID: -277726908179328444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 41
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7267de2e13f5163c0800000000000000
+      internalID: -4368105495707421145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_72
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 41
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7176198907ed61760800000000000000
+      internalID: 7428369210571581207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_73
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 41
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25e50134c4c1d6e0800000000000000
+      internalID: -1814452827938495187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_74
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 41
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e3325c2da5cfab0800000000000000
+      internalID: -4973000027226816969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_75
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 41
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88560b2583643b50800000000000000
+      internalID: 6571987179844032650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_76
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 41
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b2641f6727c6fd0800000000000000
+      internalID: -2347375450587256035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_77
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 41
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb627bb9d67944ac0800000000000000
+      internalID: -3871803282612083012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_78
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 41
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c514eb6a802dfa780800000000000000
+      internalID: -8669479823065857700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_79
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 29
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47353d53b480d5460800000000000000
+      internalID: 7231945695745495924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_80
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba18be93f73616e0800000000000000
+      internalID: -1867243476019045697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_81
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebad29e730015e990800000000000000
+      internalID: -7357456809045337410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_82
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89677da8abc29710800000000000000
+      internalID: 1698643934797326731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_83
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 29
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033c0cb1b0d7894b0800000000000000
+      internalID: -5433455463758773456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_84
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 29
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c33a641e32fa1f80800000000000000
+      internalID: -8134923428446981180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_85
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f14c3437d7d81170800000000000000
+      internalID: 8149500845021217272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_86
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 29
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b80eef968f4a200800000000000000
+      internalID: 190550218387786643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_87
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f00e34bd113e230800000000000000
+      internalID: 3666794155043983253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_88
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb3bf6a368e203f0800000000000000
+      internalID: -935930257838752837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_89
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f120e28d4be043710800000000000000
+      internalID: 1671977531545092639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_90
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6591b0211e2f4f80800000000000000
+      internalID: -8120220952027884177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_91
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 29
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3bdc926d03e5a70800000000000000
+      internalID: 8817538816820491248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_92
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc3ba68575105670800000000000000
+      internalID: 8525337689127075065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_93
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fddaa69d0c9cbb0800000000000000
+      internalID: -4915185478267969744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_94
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 29
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b88411a2d4576720800000000000000
+      internalID: 2839331353702729912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_95
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1d8140f09c35e50800000000000000
+      internalID: 6796997328962638322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_96
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba267cb905b112c0800000000000000
+      internalID: -4462586702326256968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_97
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d458efdcfd46af310800000000000000
+      internalID: 1439573943294788941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_98
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780f7f6b965428c20800000000000000
+      internalID: 3207202204984799367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_99
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 17
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34255a8f20454140800000000000000
+      internalID: 4703235958786827327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_100
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 17
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd0d230277eb6c90800000000000000
+      internalID: -7175387104419181099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_101
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 15
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73a3004dc7747340800000000000000
+      internalID: 4860641621265589117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_102
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 15
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171541817b70da840800000000000000
+      internalID: 5236850424666149233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_103
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 15
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1293488b1f31ae8a0800000000000000
+      internalID: -6275181201883645663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_104
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 17
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769f260ddbf08b990800000000000000
+      internalID: -7370123482272433817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_105
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 17
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc8afee0905383f0800000000000000
+      internalID: -899786917129057092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_106
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 17
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ad6bfb4db0d7530800000000000000
+      internalID: 3854249864476416647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_107
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 17
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ad7ddfe8adb9c40800000000000000
+      internalID: 5520246075951667774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_108
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 15
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222a0b092d98b9c90800000000000000
+      internalID: -7161979244939009502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_109
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 17
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e8f8c5726191980800000000000000
+      internalID: -8567792457783210432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_110
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 17
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27921c6d809be430800000000000000
+      internalID: 3813300446577202991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_111
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 17
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a748912a131ab4780800000000000000
+      internalID: -8697681020790930310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_112
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9066957461d039680800000000000000
+      internalID: -8749635261713258999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_113
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 5
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7092e6c8f5219bea0800000000000000
+      internalID: -5856629638831396601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_114
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 5
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f99d2fe1103ba30800000000000000
+      internalID: 4229725707466022765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_115
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0681ee49da9ee80800000000000000
+      internalID: -8148791195588861702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_116
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d8c4b599d4da800800000000000000
+      internalID: 625241244331445519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_117
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e846d210f144e6f0800000000000000
+      internalID: -656327146325260057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_118
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e46074581f46e380800000000000000
+      internalID: -8942373044183079706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_119
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 5
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96232a5110d9591f0800000000000000
+      internalID: -1038751511055551895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_120
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079d1a46e53832300800000000000000
+      internalID: 226168847737149808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_121
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953e4a6a0f0fd2840800000000000000
+      internalID: 5201078061061432153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_122
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6d4040901934130800000000000000
+      internalID: 3549840399206241963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_123
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11580558b932c4510800000000000000
+      internalID: 1534640723890046225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_124
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aa8e2fb44db6870800000000000000
+      internalID: 8677262529722362445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_125
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece46e19abf280a60800000000000000
+      internalID: 7640409246192258766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_126
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5eedb3754209270800000000000000
+      internalID: 8255138074055337376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mega Man Zero - Items_127
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 3
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07ea0ebba2eeb6c0800000000000000
+      internalID: -4125610981369125106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
