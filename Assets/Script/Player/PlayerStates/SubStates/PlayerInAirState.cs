@@ -48,8 +48,15 @@ public class PlayerInAirState : PlayerState
         jumpInput = player.InputHandler.JumpInput;
         jumpInputStop = player.InputHandler.JumpInputStop;
         CheckJumpMultiplier();
-
-        if (isGrounded && player.CurrentVelocity.y < 0.01f)
+        if (player.InputHandler.AttackInputs[(int)CombatInputs.primary])
+        {
+            stateMachine.ChangeState(player.PrimaryAttackState);
+        }
+        else if (player.InputHandler.AttackInputs[(int)CombatInputs.secondary])
+        {
+            stateMachine.ChangeState(player.SecondaryAttackState);
+        }
+        else if (isGrounded && player.CurrentVelocity.y < 0.01f)
         {
             stateMachine.ChangeState(player.LandState);
         }
@@ -68,9 +75,19 @@ public class PlayerInAirState : PlayerState
         }
         else
         {
+
             player.CheckIfShouldFlip(xInput);
-            player.SetVelocityX(playerData.movementVelocity * xInput);
-            player.Anim.SetFloat("xVelocity", Mathf.Abs(player.CurrentVelocity.x));
+            if (player.isDashing)
+            {
+                player.SetVelocityX(playerData.dashSpeed * xInput);
+                player.Anim.SetFloat("isDashing", 10f);
+            }
+            else
+            {
+                player.SetVelocityX(playerData.movementVelocity * xInput);
+                player.Anim.SetFloat("isDashing", 0f);
+            }
+
             player.Anim.SetFloat("yVelocity", player.CurrentVelocity.y);
         }
     }

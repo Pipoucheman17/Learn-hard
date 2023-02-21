@@ -11,7 +11,6 @@ public class Player : MonoBehaviour
     public PlayerMoveState MoveState { get; private set; }
 
     public PlayerJumpState JumpState { get; private set; }
-    public PlayerDashJumpState DashJumpState { get; private set; }
     public PlayerDashState DashState { get; private set; }
     public PlayerWallDashState WallDashState { get; private set; }
     public PlayerInAirState InAirState { get; private set; }
@@ -21,6 +20,9 @@ public class Player : MonoBehaviour
     public PlayerWallSlideState WallSlideState { get; private set; }
 
     public PlayerWallGrabState WallGrabState { get; private set; }
+
+    public PlayerAttackState PrimaryAttackState { get; private set; }
+    public PlayerAttackState SecondaryAttackState { get; private set; }
     [SerializeField]
     private PlayerData playerData;
 
@@ -30,6 +32,8 @@ public class Player : MonoBehaviour
     public Animator Anim { get; private set; }
     public PlayerInputHandler InputHandler { get; private set; }
     public Rigidbody2D RB { get; private set; }
+    public Vector2 lastAIPos { get; private set; }
+    public PlayerInventory Inventory { get; private set; }
     #endregion
 
     #region Check Transforms
@@ -45,8 +49,9 @@ public class Player : MonoBehaviour
     public Vector2 CurrentVelocity { get; private set; }
     public int FacingDirection { get; private set; }
 
-    public float InAirAnimStart { get; private set; } = 0;
     private Vector2 workspace;
+
+    public bool isDashing;
     #endregion
 
     #region Unity Callback Functions
@@ -63,8 +68,9 @@ public class Player : MonoBehaviour
         WallSlideState = new PlayerWallSlideState(this, StateMachine, playerData, "wallSlide");
         WallGrabState = new PlayerWallGrabState(this, StateMachine, playerData, "wallGrab");
         DashState = new PlayerDashState(this, StateMachine, playerData, "dash");
-        DashJumpState = new PlayerDashJumpState(this, StateMachine, playerData, "dashJump");
         WallDashState = new PlayerWallDashState(this, StateMachine, playerData, "wallDash");
+        PrimaryAttackState = new PlayerAttackState(this, StateMachine, playerData, "attack");
+        SecondaryAttackState = new PlayerAttackState(this, StateMachine, playerData, "attack");
     }
 
     private void Start()
@@ -73,7 +79,11 @@ public class Player : MonoBehaviour
         Anim = GetComponent<Animator>();
         InputHandler = GetComponent<PlayerInputHandler>();
         RB = GetComponent<Rigidbody2D>();
+        Inventory = GetComponent<PlayerInventory>();
         FacingDirection = 1;
+
+        PrimaryAttackState.SetWeapon(Inventory.weapons[(int)CombatInputs.primary]);
+        //SecondaryAttackState.SetWeapon(Inventory.weapons[(int)CombatInputs.secondary]);
         StateMachine.Initialize(IdleState);
     }
 
@@ -113,6 +123,10 @@ public class Player : MonoBehaviour
         CurrentVelocity = workspace;
     }
 
+    public void SetIsDashing(bool value)
+    {
+        isDashing = value;
+    }
 
     #endregion
 
@@ -140,6 +154,27 @@ public class Player : MonoBehaviour
             Flip();
         }
     }
+
+    public void CheckIfShouldPlaceAfterImage()
+    {
+        if (Vector2.Distance(transform.position, lastAIPos) > playerData.distBetweenAfterImages)
+        {
+            PlaceAfterImage();
+        }
+    }
+
+    public float CheckIfDashing(bool dash)
+    {
+        if (dash)
+        {
+            return 10f;
+        }
+        else
+        {
+            return 0f;
+        }
+
+    }
     #endregion
 
     #region Others Functions
@@ -152,6 +187,12 @@ public class Player : MonoBehaviour
     {
         FacingDirection *= -1;
         transform.Rotate(0.0f, 180.0f, 0.0f);
+    }
+
+    public void PlaceAfterImage()
+    {
+        PlayerAfterImagePool.Instance.GetFromPool();
+        lastAIPos = this.transform.position;
     }
     #endregion
 }

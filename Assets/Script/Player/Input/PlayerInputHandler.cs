@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,22 +15,65 @@ public class PlayerInputHandler : MonoBehaviour
     public bool DashInput { get; private set; }
     public bool DashInputStop { get; private set; }
 
+    public bool[] AttackInputs { get; private set; }
+
     [SerializeField]
     private float inputHoldTime = 0.2f;
     private float jumpInputStartTime;
     private float dashInputStartTime;
+
+
+    private void Start()
+    {
+        int count = Enum.GetValues(typeof(CombatInputs)).Length;
+        AttackInputs = new bool[count];
+    }
 
     private void Update()
     {
         CheckJumpInputHoldTime();
         CheckDashInputHoldTime();
     }
+
+
+    public void OnPrimaryAttackInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            AttackInputs[(int)CombatInputs.primary] = true;
+        }
+        if (context.canceled)
+        {
+            AttackInputs[(int)CombatInputs.primary] = false;
+        }
+        if (context.performed)
+        {
+            AttackInputs[(int)CombatInputs.primary] = true;
+        }
+    }
+
+    public void OnSecondaryAttackInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            AttackInputs[(int)CombatInputs.secondary] = true;
+        }
+        if (context.canceled)
+        {
+            AttackInputs[(int)CombatInputs.secondary] = false;
+        }
+        if (context.performed)
+        {
+            AttackInputs[(int)CombatInputs.secondary] = true;
+        }
+    }
+
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         RawMovementInput = context.ReadValue<Vector2>();
 
-        NormInputX = (int)(RawMovementInput * Vector2.right).normalized.x;
-        NormInputY = (int)(RawMovementInput * Vector2.up).normalized.y;
+        NormInputX = Mathf.RoundToInt(RawMovementInput.x);
+        NormInputY = Mathf.RoundToInt(RawMovementInput.y);
     }
 
     public void OnJumpInput(InputAction.CallbackContext context)
@@ -63,7 +107,6 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (context.started)
         {
-            Debug.Log("DashInput");
             DashInput = true;
             DashInputStop = false;
             dashInputStartTime = Time.time;
@@ -71,6 +114,12 @@ public class PlayerInputHandler : MonoBehaviour
         if (context.canceled)
         {
             DashInputStop = true;
+        }
+        if (context.performed)
+        {
+            DashInput = true;
+            DashInputStop = false;
+            dashInputStartTime = Time.time;
         }
 
     }
@@ -84,4 +133,11 @@ public class PlayerInputHandler : MonoBehaviour
             DashInput = false;
         }
     }
+}
+
+
+public enum CombatInputs
+{
+    primary,
+    secondary
 }

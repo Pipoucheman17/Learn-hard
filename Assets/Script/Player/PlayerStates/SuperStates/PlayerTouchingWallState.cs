@@ -31,6 +31,7 @@ public class PlayerTouchingWallState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        player.SetIsDashing(false);
     }
 
     public override void Exit()

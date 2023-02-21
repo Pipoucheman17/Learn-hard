@@ -9,7 +9,7 @@ public class PlayerGroundedState : PlayerState
     private bool DashInputStop;
     private bool JumpInput;
     private bool isGrounded;
-    private bool isDashing;
+
     public PlayerGroundedState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }
@@ -25,6 +25,7 @@ public class PlayerGroundedState : PlayerState
     {
         base.Enter();
         player.JumpState.ResetAmountOfJumpsLeft();
+        player.SetIsDashing(false);
     }
 
 
@@ -40,16 +41,23 @@ public class PlayerGroundedState : PlayerState
         xInput = player.InputHandler.NormInputX;
         JumpInput = player.InputHandler.JumpInput;
         DashInput = player.InputHandler.DashInput;
-        Debug.Log(DashInput);
         DashInputStop = player.InputHandler.DashInputStop;
-        if (JumpInput && player.JumpState.CanJump())
+
+        if (player.InputHandler.AttackInputs[(int)CombatInputs.primary])
+        {
+            stateMachine.ChangeState(player.PrimaryAttackState);
+        }
+        else if (player.InputHandler.AttackInputs[(int)CombatInputs.secondary])
+        {
+            stateMachine.ChangeState(player.SecondaryAttackState);
+        }
+        else if (JumpInput && player.JumpState.CanJump())
         {
             player.InputHandler.UseJumpInput();
             stateMachine.ChangeState(player.JumpState);
         }
-        else if (DashInput && !DashInputStop)
+        else if (DashInput && !DashInputStop && xInput != 0)
         {
-            Debug.Log("Dash START");
             player.InputHandler.UseDashInput();
             stateMachine.ChangeState(player.DashState);
 
@@ -66,16 +74,5 @@ public class PlayerGroundedState : PlayerState
         base.PhysicsUpdate();
     }
 
-    private void CheckDashDuration()
-    {
-        if (isDashing)
-        {
-            if (DashInputStop)
-            {
-                isDashing = false;
-            }
-        }
-    }
 
-    public bool SetIsDashing() => isDashing = true;
 }

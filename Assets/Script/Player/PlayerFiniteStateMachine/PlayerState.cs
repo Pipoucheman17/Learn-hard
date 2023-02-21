@@ -48,9 +48,22 @@ public class PlayerState
         DoChecks();
     }
 
-    public virtual void DoChecks() { }
+    public virtual void DoChecks()
+    {
+        IsDashingCheck();
+    }
 
     public virtual void AnimationTrigger() { }
 
     public virtual void AnimationFinishTrigger() => isAnimationFinished = true;
+
+    private void IsDashingCheck()
+    {
+        if (player.isDashing)
+        {
+            player.CheckIfShouldPlaceAfterImage();
+
+        }
+    }
+
 }

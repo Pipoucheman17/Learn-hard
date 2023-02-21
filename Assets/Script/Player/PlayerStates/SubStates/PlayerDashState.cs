@@ -27,9 +27,11 @@ public class PlayerDashState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
+        player.SetIsDashing(true);
         animeState = 0;
 
     }
+
 
     public override void LogicUpdate()
     {
@@ -38,24 +40,29 @@ public class PlayerDashState : PlayerAbilityState
         xInput = player.InputHandler.NormInputX;
         jumpInput = player.InputHandler.JumpInput;
         player.CheckIfShouldFlip(xInput);
-        player.SetVelocityX(playerData.dashSpeed * player.FacingDirection);
+        player.SetVelocityX(playerData.dashSpeed * xInput);
         player.Anim.SetFloat("dashState", animeState);
-        if (DashInputStop)
+        if (!isExitingState)
         {
-            isAbilityDone = true;
-        }
-        else if (jumpInput && player.DashJumpState.CanJump())
-        {
-            player.InputHandler.UseJumpInput();
-            stateMachine.ChangeState(player.DashJumpState);
-        }
-        else if (Time.time >= startTime + playerData.dashTime)
-        {
-            isAbilityDone = true;
-        }
-        if (isAnimationFinished)
-        {
-            animeState = 1;
+            if (DashInputStop)
+            {
+                player.SetIsDashing(false);
+                isAbilityDone = true;
+            }
+            else if (jumpInput && player.JumpState.CanJump())
+            {
+                player.InputHandler.UseJumpInput();
+                stateMachine.ChangeState(player.JumpState);
+            }
+            else if (Time.time >= startTime + playerData.dashTime)
+            {
+                player.SetIsDashing(false);
+                isAbilityDone = true;
+            }
+            if (isAnimationFinished)
+            {
+                animeState = 1;
+            }
         }
 
     }
@@ -64,7 +71,6 @@ public class PlayerDashState : PlayerAbilityState
     {
         if (isGrounded || isTouchingWall)
         {
-            Debug.Log("Check");
             return true;
         }
         else

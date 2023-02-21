@@ -24,9 +24,7 @@ public class PlayerWallJumpState : PlayerAbilityState
 
         player.JumpState.ResetAmountOfJumpsLeft();
         player.SetVelocityY(0f);
-        Debug.Log(player.CurrentVelocity);
         player.RB.AddForce(new Vector2(playerData.wallJumpStrength.x * -player.FacingDirection, playerData.wallJumpStrength.y), ForceMode2D.Impulse);
-        Debug.Log(player.CurrentVelocity);
         player.JumpState.DecreaseAmountOfJumpsLeft();
 
     }

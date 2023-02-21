@@ -21,6 +21,8 @@ MonoBehaviour:
   wallJumpAngle: {x: 3, y: 5}
   dashTime: 1
   dashSpeed: 8
+  distBetweenAfterImages: 0.5
+  drag: 10
   coyoteTime: 0.2
   variableJumpHeightMultiplier: 0.5
   wallSlideVelocity: 3

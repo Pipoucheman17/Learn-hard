@@ -22,13 +22,15 @@ public class PlayerData : ScriptableObject
     [Header("Dash State")]
     public float dashTime = 1f;
     public float dashSpeed = 10f;
+    public float distBetweenAfterImages = 0.5f;
+    public float drag = 10f;
 
     [Header("In Air State")]
     public float coyoteTime = 0.2f;
     public float variableJumpHeightMultiplier = 0.5f;
 
     [Header("Wall Slide State")]
-    public float wallSlideVelocity =3f;
+    public float wallSlideVelocity = 3f;
     public float wallClimbVelocity = 10f;
 
     [Header("Check Variables")]
