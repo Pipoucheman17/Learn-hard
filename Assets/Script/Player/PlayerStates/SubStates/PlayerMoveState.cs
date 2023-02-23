@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMoveState : PlayerGroundedState
 {
+
+    private float moveFrame;
     public PlayerMoveState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }
@@ -26,10 +28,11 @@ public class PlayerMoveState : PlayerGroundedState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+        core.Movement.CheckIfShouldFlip(xInput);
 
-        player.CheckIfShouldFlip(xInput);
-
-        player.SetVelocityX(playerData.movementVelocity * xInput);
+        core.Movement.SetVelocityX(playerData.movementVelocity * xInput);
+        player.Anim.SetFloat("moveFrame", moveFrame);
+        Debug.Log(moveFrame);
         if (xInput == 0 && !isExitingState)
         {
             stateMachine.ChangeState(player.IdleState);
@@ -39,6 +42,22 @@ public class PlayerMoveState : PlayerGroundedState
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
+    }
+
+    public override void AnimationFrameSet(float frame)
+    {
+        base.AnimationFrameSet(frame);
+        moveFrame = frame;
+    }
+
+    public float GetMoveFrame()
+    {
+        return moveFrame;
+    }
+
+    public void SetMoveFrame(float value)
+    {
+        moveFrame = value;
     }
 
 }

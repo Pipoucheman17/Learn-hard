@@ -18,14 +18,14 @@ public class PlayerGroundedState : PlayerState
     {
         base.DoChecks();
 
-        isGrounded = player.CheckIfGrounded();
+        isGrounded = core.CollisionSenses.Ground;
     }
 
     public override void Enter()
     {
         base.Enter();
         player.JumpState.ResetAmountOfJumpsLeft();
-        player.SetIsDashing(false);
+        core.Movement.SetIsDashing(false);
     }
 
 

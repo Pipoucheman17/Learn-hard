@@ -10,6 +10,8 @@ public class PlayerAttackState : PlayerAbilityState
     private bool setVelocity;
     private bool shouldCheckFlip;
     private int CurrentAttackInput;
+    private float currentFrameCase;
+    private float moveFrame;
     public PlayerAttackState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }
@@ -19,12 +21,22 @@ public class PlayerAttackState : PlayerAbilityState
         base.Enter();
 
         setVelocity = false;
+        if (player.InputHandler.NormInputX != 0)
+        {
+            weapon.SetAttackType(1);
+            moveFrame = player.MoveState.GetMoveFrame();
+        }
         weapon.EnterWeapon();
     }
 
     public override void Exit()
     {
         base.Exit();
+        if (weapon.GetAttackType() == 1)
+        {
+
+            player.MoveState.SetMoveFrame(weapon.GetFrameOut());
+        }
         weapon.ExitWeapon();
     }
 
@@ -34,12 +46,14 @@ public class PlayerAttackState : PlayerAbilityState
         xInput = player.InputHandler.NormInputX;
         if (shouldCheckFlip)
         {
-            player.CheckIfShouldFlip(xInput);
+            core.Movement.CheckIfShouldFlip(xInput);
         }
         if (setVelocity)
         {
-            player.SetVelocityX(velocityToSet * player.FacingDirection);
+            core.Movement.SetVelocityX(velocityToSet * core.Movement.FacingDirection);
         }
+
+
     }
 
     public void SetWeapon(Weapon weapon)
@@ -50,7 +64,7 @@ public class PlayerAttackState : PlayerAbilityState
 
     public void SetVelocity(float velocity)
     {
-        player.SetVelocityX(velocity * player.FacingDirection);
+        core.Movement.SetVelocityX(velocity * core.Movement.FacingDirection);
         velocityToSet = velocity;
         setVelocity = true;
     }
@@ -67,7 +81,10 @@ public class PlayerAttackState : PlayerAbilityState
             CurrentAttackInput = 1;
         }
     }
-
+    public float GetMoveFrame()
+    {
+        return moveFrame;
+    }
 
     public void SetFlipCheck(bool value)
     {
@@ -92,7 +109,7 @@ public class PlayerAttackState : PlayerAbilityState
         {
             AnimationFinishTrigger();
         }
-        else if(player.InputHandler.NormInputX != 0)
+        else if (player.InputHandler.NormInputX != 0)
         {
             AnimationFinishTrigger();
         }

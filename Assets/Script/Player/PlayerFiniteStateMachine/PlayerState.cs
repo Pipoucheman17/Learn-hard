@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerState
 {
+    protected Core core;
     protected Player player;
 
     protected PlayerStateMachine stateMachine;
@@ -21,6 +22,7 @@ public class PlayerState
         this.stateMachine = stateMachine;
         this.playerData = playerData;
         this.animBoolName = animBoolName;
+        core = player.Core;
     }
 
     public virtual void Enter()
@@ -57,9 +59,19 @@ public class PlayerState
 
     public virtual void AnimationFinishTrigger() => isAnimationFinished = true;
 
+    public virtual void AnimationStartTrigger() => isAnimationFinished = false;
+
+    public virtual void AnimationFrameCounter(int frame)
+    {
+
+    }
+    public virtual void AnimationFrameSet(float frame)
+    {
+
+    }
     private void IsDashingCheck()
     {
-        if (player.isDashing)
+        if (core.Movement.isDashing)
         {
             player.CheckIfShouldPlaceAfterImage();
 

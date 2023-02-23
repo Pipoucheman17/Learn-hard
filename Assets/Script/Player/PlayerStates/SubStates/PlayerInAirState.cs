@@ -20,9 +20,8 @@ public class PlayerInAirState : PlayerState
     public override void DoChecks()
     {
         base.DoChecks();
-        isGrounded = player.CheckIfGrounded();
-        isTouchingWall = player.CheckIfTouchingWall();
-        isTouchingWallBack = player.CheckIfTouchingWallBack();
+        isGrounded = core.CollisionSenses.Ground;
+        isTouchingWall = core.CollisionSenses.TouchWall;
     }
 
     public override void Enter()
@@ -56,11 +55,11 @@ public class PlayerInAirState : PlayerState
         {
             stateMachine.ChangeState(player.SecondaryAttackState);
         }
-        else if (isGrounded && player.CurrentVelocity.y < 0.01f)
+        else if (isGrounded && core.Movement.CurrentVelocity.y < 0.01f)
         {
             stateMachine.ChangeState(player.LandState);
         }
-        else if (jumpInput && (isTouchingWall && xInput == player.FacingDirection))
+        else if (jumpInput && (isTouchingWall && xInput == core.Movement.FacingDirection))
         {
             stateMachine.ChangeState(player.WallJumpState);
         }
@@ -69,26 +68,26 @@ public class PlayerInAirState : PlayerState
             player.InputHandler.UseJumpInput();
             stateMachine.ChangeState(player.JumpState);
         }
-        else if (isTouchingWall && xInput == player.FacingDirection && player.CurrentVelocity.y <= 0f)
+        else if (isTouchingWall && xInput == core.Movement.FacingDirection && core.Movement.CurrentVelocity.y <= 0f)
         {
             stateMachine.ChangeState(player.WallGrabState);
         }
         else
         {
 
-            player.CheckIfShouldFlip(xInput);
-            if (player.isDashing)
+            core.Movement.CheckIfShouldFlip(xInput);
+            if (core.Movement.isDashing)
             {
-                player.SetVelocityX(playerData.dashSpeed * xInput);
+                core.Movement.SetVelocityX(playerData.dashSpeed * xInput);
                 player.Anim.SetFloat("isDashing", 10f);
             }
             else
             {
-                player.SetVelocityX(playerData.movementVelocity * xInput);
+                core.Movement.SetVelocityX(playerData.movementVelocity * xInput);
                 player.Anim.SetFloat("isDashing", 0f);
             }
 
-            player.Anim.SetFloat("yVelocity", player.CurrentVelocity.y);
+            player.Anim.SetFloat("yVelocity", core.Movement.CurrentVelocity.y);
         }
     }
 
@@ -98,10 +97,10 @@ public class PlayerInAirState : PlayerState
         {
             if (jumpInputStop)
             {
-                player.SetVelocityY(playerData.jumpVelocity * playerData.variableJumpHeightMultiplier);
+                core.Movement.SetVelocityY(playerData.jumpVelocity * playerData.variableJumpHeightMultiplier);
                 isJumping = false;
             }
-            else if (player.CurrentVelocity.y <= 0f)
+            else if (core.Movement.CurrentVelocity.y <= 0f)
             {
                 isJumping = false;
             }

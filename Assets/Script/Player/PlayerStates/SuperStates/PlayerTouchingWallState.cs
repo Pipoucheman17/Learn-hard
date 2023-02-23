@@ -24,14 +24,14 @@ public class PlayerTouchingWallState : PlayerState
     public override void DoChecks()
     {
         base.DoChecks();
-        isGrounded = player.CheckIfGrounded();
-        isTouchingWall = player.CheckIfTouchingWall();
+        isGrounded = core.CollisionSenses.Ground;
+        isTouchingWall = core.CollisionSenses.TouchWall;
     }
 
     public override void Enter()
     {
         base.Enter();
-        player.SetIsDashing(false);
+        core.Movement.SetIsDashing(false);
     }
 
     public override void Exit()
@@ -52,7 +52,7 @@ public class PlayerTouchingWallState : PlayerState
         {
             stateMachine.ChangeState(player.WallJumpState);
         }
-        else if (!isTouchingWall || xInput != player.FacingDirection)
+        else if (!isTouchingWall || xInput != core.Movement.FacingDirection)
         {
             stateMachine.ChangeState(player.InAirState);
         }

@@ -15,16 +15,16 @@ public class PlayerWallJumpState : PlayerAbilityState
     public override void DoChecks()
     {
         base.DoChecks();
-        isTouchingWall = player.CheckIfTouchingWall();
-        isGrounded = player.CheckIfGrounded();
+        isTouchingWall = core.CollisionSenses.TouchWall;
+        isGrounded = core.CollisionSenses.Ground;
     }
     public override void Enter()
     {
         base.Enter();
 
         player.JumpState.ResetAmountOfJumpsLeft();
-        player.SetVelocityY(0f);
-        player.RB.AddForce(new Vector2(playerData.wallJumpStrength.x * -player.FacingDirection, playerData.wallJumpStrength.y), ForceMode2D.Impulse);
+        core.Movement.SetVelocityY(0f);
+        player.RB.AddForce(new Vector2(playerData.wallJumpStrength.x * -core.Movement.FacingDirection, playerData.wallJumpStrength.y), ForceMode2D.Impulse);
         player.JumpState.DecreaseAmountOfJumpsLeft();
 
     }

@@ -11,6 +11,7 @@ public class PlayerDashState : PlayerAbilityState
     private bool DashInputStop;
     private int xInput;
     private bool jumpInput;
+   
     public PlayerDashState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
 
@@ -19,15 +20,15 @@ public class PlayerDashState : PlayerAbilityState
     public override void DoChecks()
     {
         base.DoChecks();
-        isGrounded = player.CheckIfGrounded();
-        isTouchingWall = player.CheckIfTouchingWall();
+        isGrounded = core.CollisionSenses.Ground;
+        isTouchingWall = core.CollisionSenses.TouchWall;
         DashInputStop = player.InputHandler.DashInputStop;
     }
 
     public override void Enter()
     {
         base.Enter();
-        player.SetIsDashing(true);
+        core.Movement.SetIsDashing(true);
         animeState = 0;
 
     }
@@ -39,14 +40,14 @@ public class PlayerDashState : PlayerAbilityState
 
         xInput = player.InputHandler.NormInputX;
         jumpInput = player.InputHandler.JumpInput;
-        player.CheckIfShouldFlip(xInput);
-        player.SetVelocityX(playerData.dashSpeed * xInput);
+        core.Movement.CheckIfShouldFlip(xInput);
+        core.Movement.SetVelocityX(playerData.dashSpeed * xInput);
         player.Anim.SetFloat("dashState", animeState);
         if (!isExitingState)
         {
             if (DashInputStop)
             {
-                player.SetIsDashing(false);
+                core.Movement.SetIsDashing(false);
                 isAbilityDone = true;
             }
             else if (jumpInput && player.JumpState.CanJump())
@@ -56,7 +57,7 @@ public class PlayerDashState : PlayerAbilityState
             }
             else if (Time.time >= startTime + playerData.dashTime)
             {
-                player.SetIsDashing(false);
+                core.Movement.SetIsDashing(false);
                 isAbilityDone = true;
             }
             if (isAnimationFinished)
@@ -79,5 +80,6 @@ public class PlayerDashState : PlayerAbilityState
         }
     }
 
+   
 
 }

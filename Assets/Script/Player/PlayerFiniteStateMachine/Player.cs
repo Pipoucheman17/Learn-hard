@@ -29,6 +29,8 @@ public class Player : MonoBehaviour
     #endregion
 
     #region Components
+
+    public Core Core { get; private set; }
     public Animator Anim { get; private set; }
     public PlayerInputHandler InputHandler { get; private set; }
     public Rigidbody2D RB { get; private set; }
@@ -36,27 +38,17 @@ public class Player : MonoBehaviour
     public PlayerInventory Inventory { get; private set; }
     #endregion
 
-    #region Check Transforms
-    [SerializeField]
-    private Transform groundCheck;
-    [SerializeField]
-    private Transform wallCheck;
-    #endregion
-
     #region Others Variables
 
 
-    public Vector2 CurrentVelocity { get; private set; }
-    public int FacingDirection { get; private set; }
-
     private Vector2 workspace;
 
-    public bool isDashing;
     #endregion
 
     #region Unity Callback Functions
     private void Awake()
     {
+        Core = GetComponentInChildren<Core>();
         StateMachine = new PlayerStateMachine();
 
         IdleState = new PlayerIdleState(this, StateMachine, playerData, "idle");
@@ -80,7 +72,6 @@ public class Player : MonoBehaviour
         InputHandler = GetComponent<PlayerInputHandler>();
         RB = GetComponent<Rigidbody2D>();
         Inventory = GetComponent<PlayerInventory>();
-        FacingDirection = 1;
 
         PrimaryAttackState.SetWeapon(Inventory.weapons[(int)CombatInputs.primary]);
         //SecondaryAttackState.SetWeapon(Inventory.weapons[(int)CombatInputs.secondary]);
@@ -90,7 +81,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        CurrentVelocity = RB.velocity;
+        Core.LogicUpdate();
         StateMachine.CurrentState.LogicUpdate();
     }
 
@@ -100,99 +91,31 @@ public class Player : MonoBehaviour
     }
     #endregion
 
-    #region Set Functions
-    public void SetVelocity(float velocity, Vector2 angle, int direction)
-    {
-        angle.Normalize();
-        workspace.Set(angle.x * (velocity * direction), angle.y * (velocity));
-        RB.velocity = workspace;
-        CurrentVelocity = workspace;
-    }
-
-    public void SetVelocityX(float velocity)
-    {
-        workspace.Set(velocity, CurrentVelocity.y);
-        RB.velocity = workspace;
-        CurrentVelocity = workspace;
-    }
-
-    public void SetVelocityY(float velocity)
-    {
-        workspace.Set(CurrentVelocity.x, velocity);
-        RB.velocity = workspace;
-        CurrentVelocity = workspace;
-    }
-
-    public void SetIsDashing(bool value)
-    {
-        isDashing = value;
-    }
-
-    #endregion
-
-    #region Check Functions
-
-    public bool CheckIfGrounded()
-    {
-        return Physics2D.OverlapCircle(groundCheck.position, playerData.groundCheckRadius, playerData.whatIsGround);
-    }
-
-    public bool CheckIfTouchingWall()
-    {
-        return Physics2D.Raycast(wallCheck.position, transform.right, playerData.wallCheckDistance, playerData.whatIsGround);
-    }
-
-    public bool CheckIfTouchingWallBack()
-    {
-        return Physics2D.Raycast(wallCheck.position, -transform.right, playerData.wallCheckDistance, playerData.whatIsGround);
-    }
-
-    public void CheckIfShouldFlip(int xInput)
-    {
-        if (xInput != FacingDirection && xInput != 0)
-        {
-            Flip();
-        }
-    }
-
-    public void CheckIfShouldPlaceAfterImage()
-    {
-        if (Vector2.Distance(transform.position, lastAIPos) > playerData.distBetweenAfterImages)
-        {
-            PlaceAfterImage();
-        }
-    }
-
-    public float CheckIfDashing(bool dash)
-    {
-        if (dash)
-        {
-            return 10f;
-        }
-        else
-        {
-            return 0f;
-        }
-
-    }
-    #endregion
-
     #region Others Functions
 
     private void AnimationTrigger() => StateMachine.CurrentState.AnimationTrigger();
 
     private void AnimationFinishTrigger() => StateMachine.CurrentState.AnimationFinishTrigger();
 
-    private void Flip()
-    {
-        FacingDirection *= -1;
-        transform.Rotate(0.0f, 180.0f, 0.0f);
-    }
+    private void AnimationStartTrigger () => StateMachine.CurrentState.AnimationStartTrigger();
+
+    private void AnimationFrameCounter(int frame) => StateMachine.CurrentState.AnimationFrameCounter(frame);
+
+    private void AnimationFrameSet(float frame) => StateMachine.CurrentState.AnimationFrameSet(frame);
+
+
 
     public void PlaceAfterImage()
     {
         PlayerAfterImagePool.Instance.GetFromPool();
         lastAIPos = this.transform.position;
+    }
+    public void CheckIfShouldPlaceAfterImage()
+    {
+        if (Vector2.Distance(transform.position, lastAIPos) > playerData.distBetweenAfterImages)
+        {
+            PlaceAfterImage();
+        }
     }
     #endregion
 }
