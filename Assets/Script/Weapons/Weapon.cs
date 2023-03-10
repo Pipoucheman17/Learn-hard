@@ -41,6 +41,10 @@ public class Weapon : MonoBehaviour
             attackCounter = 5;
             state.SetVelocity(4f);
         }
+        else if (attackType == 2)
+        {
+            attackCounter = 3;
+        }
 
         baseAnimator.SetBool("attack", true);
         baseAnimator.SetInteger("attackCounter", attackCounter);
@@ -125,6 +129,12 @@ public class Weapon : MonoBehaviour
 
     #endregion
 
+
+    private void ResetAttackCounter()
+    {
+
+        attackCounter = 0;
+    }
     public void InitializeWeapon(PlayerAttackState state)
     {
         this.state = state;

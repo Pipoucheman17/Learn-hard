@@ -32,7 +32,6 @@ public class PlayerMoveState : PlayerGroundedState
 
         core.Movement.SetVelocityX(playerData.movementVelocity * xInput);
         player.Anim.SetFloat("moveFrame", moveFrame);
-        Debug.Log(moveFrame);
         if (xInput == 0 && !isExitingState)
         {
             stateMachine.ChangeState(player.IdleState);

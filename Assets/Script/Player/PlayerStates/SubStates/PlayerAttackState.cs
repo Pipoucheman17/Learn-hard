@@ -12,6 +12,7 @@ public class PlayerAttackState : PlayerAbilityState
     private int CurrentAttackInput;
     private float currentFrameCase;
     private float moveFrame;
+    private int attackType;
     public PlayerAttackState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }
@@ -21,11 +22,20 @@ public class PlayerAttackState : PlayerAbilityState
         base.Enter();
 
         setVelocity = false;
-        if (player.InputHandler.NormInputX != 0)
+        if (player.InputHandler.NormInputX != 0 && core.CollisionSenses.Ground)
         {
-            weapon.SetAttackType(1);
+            attackType = 1;
             moveFrame = player.MoveState.GetMoveFrame();
         }
+        else if (!core.CollisionSenses.Ground)
+        {
+            attackType = 2;
+        }
+        else if (player.InputHandler.NormInputX == 0 && core.CollisionSenses.Ground)
+        {
+            attackType = 0;
+        }
+        weapon.SetAttackType(attackType);
         weapon.EnterWeapon();
     }
 
@@ -34,7 +44,6 @@ public class PlayerAttackState : PlayerAbilityState
         base.Exit();
         if (weapon.GetAttackType() == 1)
         {
-
             player.MoveState.SetMoveFrame(weapon.GetFrameOut());
         }
         weapon.ExitWeapon();
@@ -52,6 +61,14 @@ public class PlayerAttackState : PlayerAbilityState
         {
             core.Movement.SetVelocityX(velocityToSet * core.Movement.FacingDirection);
         }
+        if(attackType ==2)
+        {
+            if(core.CollisionSenses.Ground)
+            {
+                isAbilityDone = true;
+            }
+        }
+
 
 
     }
